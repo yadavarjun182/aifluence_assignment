@@ -93,7 +93,67 @@
 .namebar {
   display: flex;
   padding-top: 20px;
+  padding-left: 20px;
 }
+
+.threeicons{
+  margin-top: 5px;
+  margin-left: 15px;
+  display: flex;
+  width: 80px;
+  justify-content: space-between;
+}
+
+.threeicons>div{
+  width: 19px;
+  height: 18px;
+ 
+}
+.citydetails{
+width: 146px;
+height: 18px;
+margin-top: 6px;
+margin-left: 20px;
+display: flex;
+}
+
+.profession{
+  margin-left: 15px;
+  margin-top: 20px;
+  width: 240px;
+  height: 18px;
+
+  display: flex;
+justify-content: space-between;
+}
+
+.summary{
+  margin-top: 10px;
+ 
+  display: flex;
+  width: 350px;
+  justify-content: space-between;
+}
+
+.summary>div{
+  margin-left: 15px;
+}
+
+.campaignbtn{
+  margin-left: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.campaignbtn>div{
+  display: flex;
+  gap: 10px;
+}
+
+.campaignbtn>div{
+  border: 1px solid red;
+}
+
 
 .statstab {
   width: 885px;

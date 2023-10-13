@@ -34,10 +34,60 @@ function App() {
             </div>
             <div className="details">
               <div className="namebar">
-                <div>Zoe Sennett</div>
-                <div>three icons</div>
-                <div>city name</div>
+                <div>
+                  <img src="/Zoe.png" alt='badge' />
+                </div>
+                <div className='threeicons'>
+                  <div>  <img src="/Instagram.png" alt='badge' /></div>
+                  <div>  <img src="/Twitter2.png" alt='badge' /></div>
+                  <div>  <img src="/Facebook2.png" alt='badge' /></div>
+                </div>
+                <div className="citydetails">
+                  <img src="/city.png" alt='badge' />
+                </div>
+
               </div>
+              <div className="profession">
+                <div>
+                  <img src="/oval.png" alt='badge' />
+                </div>
+                <div>
+                  <img src="/Fashion.png" alt='badge' />
+                </div>
+              </div>
+              <div className="summary">
+                <div>
+                  <img src="/IdentificationCard.png" alt='badge' />
+
+                </div>
+                <div>
+                  <img src="/aboutme.png" alt='badge' />
+
+                </div>
+
+              </div>
+              <div className="campaignbtn">
+              <div>
+              <div>
+
+<img src="/Buttons.png" alt='badge' />
+</div>
+<div>
+<img src="/Buttons2.png" alt='badge' />
+
+</div>
+
+              </div>
+<div>
+<div>
+                  <img src="/.png" alt='badge' />
+
+                </div>
+</div>
+               
+               
+              </div>
+
             </div>
           </div>
           <div className="statstab">
