@@ -1,4 +1,5 @@
 .container {
+  margin: auto;
   width: 1160px;
   height: 1257px;
   border: 2px solid blue;
@@ -30,9 +31,7 @@
 
 .topbox {
   padding-top: 8px;
-
   width: 192px;
-
   display: flex;
   gap: 18px;
 }
