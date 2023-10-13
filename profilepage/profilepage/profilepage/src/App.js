@@ -117,7 +117,7 @@ function App() {
                   <img src="/Twitter5.png" alt='badge' />
                 </div>
                 <div>
-                  <img src="/Facebook5.png" alt='badge' />
+                  <img src="/FaceBook5.png" alt='badge' />
                 </div>
                 <div>
                   <img src="/Instagram5.png" alt='badge' />
