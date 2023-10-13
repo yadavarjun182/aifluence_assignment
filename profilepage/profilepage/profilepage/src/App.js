@@ -81,7 +81,13 @@ function App() {
                 <div>
                   <div>
                     <img src="/Medal.png" alt='badge' />
+                  </div>
+                  <div className='excel'>
+                    <img src="Buttons3.png" alt='badge' />
+                    <div className='excel2'>
 
+                      <img src="Excellent.png" alt='badge' />
+                    </div>
                   </div>
                 </div>
 
