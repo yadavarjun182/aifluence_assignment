@@ -67,25 +67,25 @@ function App() {
 
               </div>
               <div className="campaignbtn">
-              <div>
-              <div>
+                <div>
+                  <div>
 
-<img src="/Buttons.png" alt='badge' />
-</div>
-<div>
-<img src="/Buttons2.png" alt='badge' />
+                    <img src="/Buttons.png" alt='badge' />
+                  </div>
+                  <div>
+                    <img src="/Buttons2.png" alt='badge' />
 
-</div>
-
-              </div>
-<div>
-<div>
-                  <img src="/.png" alt='badge' />
+                  </div>
 
                 </div>
-</div>
-               
-               
+                <div>
+                  <div>
+                    <img src="/Medal.png" alt='badge' />
+
+                  </div>
+                </div>
+
+
               </div>
 
             </div>
