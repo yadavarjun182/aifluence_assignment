@@ -111,9 +111,26 @@ function App() {
             </div>
             <div className="statscard">
               <div className="boxheading">ENGAGEMENT</div>
+              <div className="insightspercent">4.5%  <img src="/triangle.png" alt='badge' /></div>
+              <div className="socioiconsbox">
+                <div>
+                  <img src="/Twitter5.png" alt='badge' />
+                </div>
+                <div>
+                  <img src="/Facebook5.png" alt='badge' />
+                </div>
+                <div>
+                  <img src="/Instagram5.png" alt='badge' />
+                </div>
+
+              </div>
             </div>
+
+
             <div className="statscard3">
-              <div className="boxheading">INSIGHTS</div>
+              <div className="graphi">
+              <img src="/donut.png" alt='badge' />
+              </div>
             </div>
           </div>
           <div className="socialiconstab">
@@ -224,15 +241,15 @@ function App() {
             </div>
             <div>
               <div className="boxheading">REACHABILITY</div>
-              <div className="bargraphbox">
-                <div className="bar-graph">
-                  <div className="bar-graph-filled"></div> {/* Filled (e.g., 70%) */}
-                  <div className="bar-graph-empty"></div> {/* Empty (e.g., 30%) */}
-                </div>
+              <div className='graph23box'>
+              <img src="/barc.png" alt='badge' />
               </div>
             </div>
             <div>
               <div className="boxheading">GENDER DISTRIBUTION</div>
+              <div className='graph22box'>
+              <img src="/graph22.png" alt='badge' />
+              </div>
 
             </div>
           </div>
