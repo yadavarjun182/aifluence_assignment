@@ -242,7 +242,7 @@ function App() {
             <div>
               <div className="boxheading">REACHABILITY</div>
               <div className='graph23box'>
-              <img src="/barc.png" alt='badge' />
+              <img src="/Barc.png" alt='badge' />
               </div>
             </div>
             <div>
