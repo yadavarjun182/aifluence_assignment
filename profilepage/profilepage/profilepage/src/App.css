@@ -22,7 +22,6 @@
 .topbar {
   height: 38px;
   width: 100%;
-  background-color: blueviolet;
   border-bottom: 1px solid #fafafa;
   display: flex;
   justify-content: right;
@@ -33,7 +32,7 @@
   padding-top: 8px;
 
   width: 192px;
-  background-color: red;
+
   display: flex;
   gap: 18px;
 }
@@ -41,7 +40,7 @@
 .single {
   height: 24px;
   width: 24px;
-  border: 0.5px dotted blue;
+ 
 }
 .triple {
   display: flex;
@@ -52,11 +51,11 @@
   height: 24px;
   width: 24px;
 
-  background-color: chocolate;
+ 
 
   margin-left: 24px;
   /* padding-right: 12px; */
-  border: 0.5px solid blue;
+
 }
 
 .profilesec {
@@ -67,13 +66,13 @@
   display: flex;
   /* border:1px solid gray; */
   justify-content: space-between;
+  border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
 
 .profile_picture {
   height: 248px;
   width: 300px;
-  border: 1px solid brown;
   position: relative;
 }
 .officialbadge {
@@ -81,14 +80,14 @@
   width: 36px;
   top: 10px;
   right: 10px;
-  border: 2px solid lawngreen;
+
   position: absolute;
 }
 
 .details {
   width: 619px;
   height: 248px;
-  background-color: yellow;
+
 }
 
 .namebar {
@@ -102,10 +101,11 @@
   background-color: #e2edfc;
   border-radius: 10px;
   margin-left: 16px;
+  margin-top: 10px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border: 2px solid olivedrab;
+  
 }
 
 .statscard3 {
@@ -148,7 +148,7 @@
 .tweetfacebox > div {
   height: 48px;
   width: 48px;
-  border: 1px solid gray;
+ 
 }
 .socialiconstab {
   height: 42px;
@@ -169,7 +169,7 @@
 .socialogo {
   height: 42px;
   width: 42px;
-  border: 0.5px solid hotpink;
+ 
 }
 
 .titlestab {
@@ -234,7 +234,8 @@
 .logo {
   height: 16px;
   width: 16px;
-  border: 1px solid blue;
+ 
+
 }
 
 .logoname {

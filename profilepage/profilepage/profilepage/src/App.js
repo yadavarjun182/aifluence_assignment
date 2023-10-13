@@ -1,6 +1,4 @@
-
 import './App.css';
-
 function App() {
   return (
     <>
@@ -11,18 +9,28 @@ function App() {
         <div className="main">
           <div className="topbar">
             <div className="topbox">
-              <div className="single">qqq</div>
+              <div className="single">
+                <img src="/icon1.png" alt='icon' />
+              </div>
               <div className="triple">
-                <div>t</div>
-                <div>t</div>
-                <div>t</div>
+                <div>
+                  <img src="/Notification.png" alt="notification" />
+                </div>
+                <div>
+                  <img src="/Settings.png" alt="settings" />
+                </div>
+                <div>
+                  <img src="/Profile.png" alt="Profile" />
+                </div>
               </div>
             </div>
           </div>
           <div className="profilesec">
             <div className="profile_picture">
-              <img src="" alt="Profile" /> {/* Corrected the 'image' tag to 'img' */}
-              <div className="officialbadge"></div>
+              <img src="/pic.png" alt="Profile" /> {/* Corrected the 'image' tag to 'img' */}
+              <div className="officialbadge">
+                <img src="/Vector.png" alt='badge' />
+              </div>
             </div>
             <div className="details">
               <div className="namebar">
@@ -37,8 +45,12 @@ function App() {
               <div className="boxheading">INFLUENCE</div>
               <div className="statscardpercent">88<span className="total">/100</span></div>
               <div className="tweetfacebox">
-                <div></div>
-                <div></div>
+                <div>
+                  <img src="/twitter.png" alt='badge' />
+                </div>
+                <div>
+                  <img src="/facebook.png" alt='badge' />
+                </div>
               </div>
             </div>
             <div className="statscard">
@@ -50,9 +62,15 @@ function App() {
           </div>
           <div className="socialiconstab">
             <div className="iconsbox">
-              <div className="socialogo"></div>
-              <div className="socialogo"></div>
-              <div className="socialogo"></div>
+              <div className="socialogo">
+                <img src="/icons3.png" alt='badge' />
+              </div>
+              <div className="socialogo">
+                <img src="/icons4.png" alt='badge' />
+              </div>
+              <div className="socialogo">
+                <img src="/icons5.png" alt='badge' />
+              </div>
             </div>
 
 
@@ -93,13 +111,21 @@ function App() {
             <div>
               <div className="boxheading">BRAND AFFINITY</div>
               <div className="streamingicons">
-                <div className="logo"></div>
+                <div className="logo">
+                  <img src="/bmw.png" alt='badge' />
+                </div>
                 <div className="logoname">BMW</div>
-                <div className="logo"></div>
+                <div className="logo">
+                  <img src="/netflix.png" alt='badge' />
+                </div>
                 <div className="logoname">NETFLIX</div>
-                <div className="logo"></div>
+                <div className="logo">
+                  <img src="/american_express.png" alt='badge' />
+                </div>
                 <div className="logoname">Amex</div>
-                <div className="logo"></div>
+                <div className="logo">
+                  <img src="/playstation.png" alt='badge' />
+                </div>
                 <div className="logoname">Playstation</div>
               </div>
             </div>
