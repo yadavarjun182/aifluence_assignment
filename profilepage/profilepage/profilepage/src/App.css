@@ -1,23 +1,42 @@
 .container {
   margin: auto;
-  width: 1160px;
-  height: 1257px;
-  border: 2px solid blue;
+  padding: 15px;
+  width: 100vw;
+  max-width: 1860px;
+  min-height: 100vh;
+  /* border: 1px solid blue; */
   display: flex;
   box-sizing: border-box;
 }
 
 .sidebar {
-  width: 240px;
-  height: 911px;
+  width: 20%;
+  height: auto;
   background-color: #ffcc00;
   border: 1px solid red;
 }
+@media screen and (max-width: 768px) {
+  .container {
+    border: 1px solid blue;
+    /* padding: 5px; */
+    width: 100vw;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .sidebar {
+    display: none; 
+  }
+  .main {
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+  }
+
+  }
 
 .main {
-  width: 900px;
-  height: 656px;
- 
+  width: 80%;
+  height: auto;
 }
 
 .topbar {
@@ -39,7 +58,6 @@
 .single {
   height: 24px;
   width: 24px;
- 
 }
 .triple {
   display: flex;
@@ -49,22 +67,15 @@
 .triple div {
   height: 24px;
   width: 24px;
-
- 
-
   margin-left: 24px;
-  /* padding-right: 12px; */
-
 }
 
 .profilesec {
   height: 250px;
   width: 100%;
   padding-top: 30px;
-
   display: flex;
-  /* border:1px solid gray; */
-  justify-content: space-between;
+  justify-content: flex-start;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
 }
@@ -79,14 +90,12 @@
   width: 36px;
   top: 10px;
   right: 10px;
-
   position: absolute;
 }
 
 .details {
-  width: 619px;
+  width: 100%;
   height: 248px;
-
 }
 
 .namebar {
@@ -95,69 +104,69 @@
   padding-left: 20px;
 }
 
-.threeicons{
+.threeicons {
   margin-top: 5px;
-  margin-left: 15px;
+  margin-left: 3%;
   display: flex;
-  width: 80px;
+  width: 10%;
   justify-content: space-between;
 }
 
-.threeicons>div{
+.threeicons > div {
   width: 19px;
   height: 18px;
- 
 }
-.citydetails{
-width: 146px;
-height: 18px;
-margin-top: 6px;
-margin-left: 20px;
-display: flex;
+.citydetails {
+  width: 20%;
+  height: 18px;
+  margin-top: 6px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.profession{
+.profession {
   margin-left: 15px;
   margin-top: 20px;
   width: 240px;
   height: 18px;
-
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
 }
 
-.summary{
+.summary {
   margin-top: 10px;
- 
   display: flex;
   width: 350px;
   justify-content: space-between;
 }
 
-.summary>div{
+.summary > div {
   margin-left: 15px;
 }
 
-.campaignbtn{
+.campaignbtn {
   margin-left: 20px;
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
 }
-.campaignbtn>div{
+
+.campaignbtn > div {
   display: flex;
   gap: 10px;
 }
 
-.excel{
+.excel {
   margin-right: 30px;
 }
-.excel2{
+
+.excel2 {
   margin-top: -5px;
   margin-right: 30px;
 }
 
-.socioiconsbox{
+.socioiconsbox {
   display: flex;
   width: 120px;
   justify-content: space-between;
@@ -165,38 +174,36 @@ justify-content: space-between;
   margin: 16px auto auto auto;
 }
 
-.socialiconsbox > div{
+.socialiconsbox > div {
   width: 15px;
   height: 13.5px;
-  border: 1px solid red;
 }
 
-.graphi{
+.graphi {
   margin-top: -14px;
   margin-left: -10px;
 }
 
-.graph22box{
-  margin-top: 20px;
-  margin-left: 30px;
+.graph22box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.graph23box{
+.graph23box {
   width: 80%;
   margin-top: 20px;
   margin-left: 40px;
 }
 .statstab {
-  width: 885px;
+  width: 95%;
   height: 141px;
   background-color: #e2edfc;
   border-radius: 10px;
-  margin-left: 16px;
   margin-top: 10px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  
 }
 
 .statscard3 {
@@ -239,18 +246,16 @@ justify-content: space-between;
 .tweetfacebox > div {
   height: 48px;
   width: 48px;
- 
 }
 .socialiconstab {
   height: 42px;
-  /* background-color: cyan  ; */
+  margin-right: 5%;
   margin-top: 10px;
   display: flex;
   justify-content: right;
 }
 
 .iconsbox {
-  /* border: 1px solid black; */
   width: 186px;
   height: 42px;
   display: flex;
@@ -260,7 +265,6 @@ justify-content: space-between;
 .socialogo {
   height: 42px;
   width: 42px;
- 
 }
 
 .titlestab {
@@ -284,12 +288,19 @@ justify-content: space-between;
 }
 
 .followers_container {
-  width: 885px;
+  width: 95%;
   height: 116px;
+  margin: 20px auto;
   margin-top: 20px;
   margin-left: 10px;
   display: flex;
   justify-content: space-between;
+}
+
+.followers_container > div {
+  width: 30%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 .insightspercent {
@@ -325,8 +336,6 @@ justify-content: space-between;
 .logo {
   height: 16px;
   width: 16px;
- 
-
 }
 
 .logoname {
@@ -336,11 +345,6 @@ justify-content: space-between;
   font-size: 10px;
   height: 12px;
 }
-/* .movetocenter{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .roundedbtn {
   text-align: center;
@@ -381,15 +385,8 @@ justify-content: space-between;
   text-align: center;
 }
 
-.followers_container > div {
-  width: 277px;
-  height: 116x;
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-}
-
 .posts_container {
-  width: 885px;
+  width: 95%;
   height: 185px;
   margin-top: 24px;
   margin-left: 10px;
@@ -398,7 +395,7 @@ justify-content: space-between;
 }
 
 .posts_container > div {
-  width: 277px;
+  width: 30%;
   height: 185px;
   border-radius: 10px;
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
@@ -416,16 +413,17 @@ justify-content: space-between;
 }
 
 .audiencebox {
-  width: 885px;
+  width: 95%;
   height: 185px;
   margin-top: 10px;
   margin-left: 10px;
+  padding: 10%;
   display: flex;
   justify-content: space-between;
 }
 
 .audiencebox > div {
-  width: 277px;
+  width: 30%;
   height: 185px;
   border-radius: 10px;
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,

@@ -1,4 +1,5 @@
 import './App.css';
+import Doughnutchart from './Components/Doughnutchart';
 function App() {
   return (
     <>
@@ -129,7 +130,7 @@ function App() {
 
             <div className="statscard3">
               <div className="graphi">
-              <img src="/donut.png" alt='badge' />
+                <img src="/donut.png" alt='badge' />
               </div>
             </div>
           </div>
@@ -242,13 +243,15 @@ function App() {
             <div>
               <div className="boxheading">REACHABILITY</div>
               <div className='graph23box'>
-              <img src="/Barc.png" alt='badge' />
+                <img src="/Barc.png" alt='badge' />
               </div>
             </div>
             <div>
               <div className="boxheading">GENDER DISTRIBUTION</div>
               <div className='graph22box'>
-              <img src="/graph22.png" alt='badge' />
+                {/* <img src="/graph22.png" alt='badge' /> */}
+
+                <Doughnutchart style={{ border: "2px solid red" }} />
               </div>
 
             </div>
